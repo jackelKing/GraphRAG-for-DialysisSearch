@@ -4,7 +4,7 @@ An end-to-end GraphRAG (Graph Retrieval-Augmented Generation) system for clinica
 
 ---
 
-## 🚀 Problem Statement
+##  Problem Statement
 
 Dialysis patients often have multiple co-morbidities (e.g., fluid overload + cardiac history). Identifying effective treatments requires reasoning across similar patient cases.
 
@@ -15,7 +15,7 @@ This project simulates that process using:
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
 - Synthetic dataset generation (20+ patients)
 - Hybrid entity extraction (LLM + rule-based fallback)
@@ -32,31 +32,31 @@ This project simulates that process using:
 
 ---
 
-## 🏗️ Architecture Overview
-
-User Query  
-↓  
-Query Understanding  
-↓  
-Graph Traversal Engine  
-↓  
-Similarity Matching  
-↓  
-Multi-hop Reasoning  
-↓  
-Fallback Handling (if needed)  
-↓  
+##  Architecture Overview
+'''
+        User Query  
+            ↓  
+      Query Understanding  
+            ↓  
+      Graph Traversal Engine  
+            ↓  
+      Similarity Matching  
+            ↓  
+      Multi-hop Reasoning  
+            ↓  
+    Fallback Handling (if needed)  
+            ↓  
 Final Answer + Reasoning Path + Confidence  
-
+'''
 ---
 
-## 🔍 Example Query
+##  Example Query
 
 What treatments worked for patients with fluid overload who also had prior cardiac events?
 
 ---
 
-## ✅ Example Output
+##  Example Output
 
 Recommended Treatments:
 - Ultrafiltration → improved (3 patients)
@@ -71,7 +71,7 @@ Fallback Used: Partial condition matching
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 - Python
 - NetworkX (graph construction)
@@ -81,7 +81,7 @@ Fallback Used: Partial condition matching
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. Clone Repository
 git clone <your-repo-link>
@@ -101,7 +101,7 @@ python app.py
 
 ---
 
-## 🧪 Evaluation Metrics
+##  Evaluation Metrics
 
 The system includes lightweight RAGAS-style evaluation:
 
@@ -111,7 +111,7 @@ The system includes lightweight RAGAS-style evaluation:
 
 ---
 
-## 🛡️ Robustness Features
+##  Robustness Features
 
 - Handles missing data gracefully
 - Falls back when LLM fails
@@ -120,7 +120,7 @@ The system includes lightweight RAGAS-style evaluation:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 GraphRAG_DialysisSearch/
 │
@@ -138,7 +138,7 @@ GraphRAG_DialysisSearch/
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Graph embeddings (Node2Vec / GNN)
 - Hybrid Vector + Graph RAG
@@ -148,12 +148,12 @@ GraphRAG_DialysisSearch/
 
 ---
 
-## 👤 Author
+##  Author
 
 Prem Raga
 
 ---
 
-## ⭐ If you found this useful
+##  If you found this useful
 
 Star the repo and share!
