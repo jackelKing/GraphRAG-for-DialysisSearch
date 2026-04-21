@@ -121,21 +121,24 @@ The system includes lightweight RAGAS-style evaluation:
 ---
 
 ##  Project Structure
-
+```
 GraphRAG_DialysisSearch/
 │
 ├── app.py
-├── data_gen.py
-├── extractor.py
-├── graph_builder.py
-├── reasoning.py
-├── similarity.py
+├── data_generator.py
+├── entity_extractor.py
 ├── evaluator.py
-├── utils.py
-├── config.py
+├── graph_engine.py
+├── reasoner.py
+├── ollama_client.py
+├── patients.py
+├── query_engine.py
+├── evaluator.py
+├── similarity_engine.py
+├── streamlit_app.py
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ##  Future Improvements
