@@ -33,7 +33,7 @@ This project simulates that process using:
 ---
 
 ##  Architecture Overview
-'''
+```
         User Query  
             ↓  
       Query Understanding  
@@ -47,7 +47,7 @@ This project simulates that process using:
     Fallback Handling (if needed)  
             ↓  
 Final Answer + Reasoning Path + Confidence  
-'''
+```
 ---
 
 ##  Example Query
